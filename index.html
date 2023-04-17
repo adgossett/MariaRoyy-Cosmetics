@@ -1233,10 +1233,7 @@
     <script src="revolution/js/extensions/revolution.extension.video.min.js">
     </script>
     
-                                                                                                                                                        Google
-                                                                                                                                                        Map
-                                                                                                                                                        Api
-                                                                                                                                                        -->
+                                                                                                                                                        
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgC6ZapXdUzFdeQOFhdm_wucwlDMMQ8CQ">
     </script>
     <script src="js/map.js">
@@ -1246,28 +1243,7 @@
     <script src="js/main.js">
     </script>
 
-    <script>
-        var cpnBtn = document.getElementById(cpnBtn);
-        var cpnCode = document.getElementById(cpnCode);
-
-        cpnBtn.onclick = function () {
-            navigator.clipboard.writeText(cpnCode.innerHTML);
-            cpnBtn.innerHTML = "COPIED"
-            setTimeout(function () {
-                cpnBtn.innerHTML = "COPY CODE";
-            }, 3000);
-        }
-    </script>
-    <script>
-        var closebtns = document.getElementsByClassName("close");
-        var i;​
-        for (i = 0; i < closebtns.length; i++) {
-            closebtns[i].addEventListener("click", function () {
-                this.parentElement.style.display = 'none';
-            });
-        }
-    </script>
-
+    
 
 </body>
 
